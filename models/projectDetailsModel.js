@@ -2,7 +2,7 @@ import fs, { read } from 'fs';
 
 function readProjectData() {
   try {
-    const data = fs.readFileSync('./data/data.json', 'utf-8')
+    const data = fs.readFileSync('public/data.json', 'utf-8')
     const projectData =  JSON.parse(data)
     return projectData.projectData
   } catch (error) {

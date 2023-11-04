@@ -14,7 +14,7 @@ app.set("layout extractScripts", true);
 app.set('view engine', 'ejs')
 
 function readProjectData() {
-  const data = fs.readFileSync('./data/data.json', 'utf-8')
+  const data = fs.readFileSync('public/data.json', 'utf-8')
   return JSON.parse(data)
 }
 

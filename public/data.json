@@ -129,6 +129,24 @@
           "author": "Anonymous User"
         }
       ]
+    },
+    {
+      "id": 1699113045034,
+      "name": "New",
+      "description": "Description",
+      "author": "Author 1",
+      "labels": [
+        "Issue"
+      ],
+      "issues": [
+        {
+          "id": 1699113069927,
+          "title": "New Issue",
+          "description": "Description of Issue",
+          "labels": "Issue",
+          "author": "Author 1"
+        }
+      ]
     }
   ]
 }

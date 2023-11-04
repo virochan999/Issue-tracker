@@ -9,7 +9,7 @@ export function generateProjectId() {
 export function saveProjectData(newProject) {
   let projects = []
   try {
-    const data = fs.readFileSync('./data/data.json', 'utf-8')
+    const data = fs.readFileSync('public/data.json', 'utf-8')
     projects = JSON.parse(data)
   } catch (error) {
     console.error('Error reading project data:', error);
@@ -17,7 +17,7 @@ export function saveProjectData(newProject) {
   projects.projectData.push(newProject)
 
   try {
-    fs.writeFileSync('./data/data.json', JSON.stringify(projects, null, 2))
+    fs.writeFileSync('public/data.json', JSON.stringify(projects, null, 2))
   } catch (error) {
     console.error('Error writing project data:', error)
   }

@@ -2,7 +2,7 @@ import fs from 'fs';
 
 export function saveIssueData(newIssue, projectId) {
   try {
-    const data = fs.readFileSync('./data/data.json', 'utf-8');
+    const data = fs.readFileSync('public/data.json', 'utf-8');
     const projects = JSON.parse(data);
 
     // Find the project by projectId
@@ -18,7 +18,7 @@ export function saveIssueData(newIssue, projectId) {
     project.issues.push(newIssue)
 
     // Write the updated data back to data.json
-    fs.writeFileSync('./data/data.json', JSON.stringify(projects, null, 2));
+    fs.writeFileSync('public/data.json', JSON.stringify(projects, null, 2));
 
   } catch (error) {
     console.error('Error reading or writing project data:', error);
