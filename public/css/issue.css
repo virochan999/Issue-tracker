@@ -1,0 +1,56 @@
+.issue-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.issue-form {
+  display: flex;
+  flex-direction: column;  
+  width: 30rem;
+  gap: 0.5rem;
+  color: blue;
+  box-shadow: rgba(53, 44, 236, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+
+.issue-form-heading {
+  text-align: center;
+}
+
+.issue-form input {
+  height: 1.5rem;
+}
+
+.issue-form label {
+  font-weight: 600;
+}
+
+.issue-form input, .issue-form textarea {
+  background-color: #f2f4f6;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+}
+
+.issue-form option {
+  color: black;
+}
+
+.issue-form textarea {
+  max-width: 100%;
+}
+
+.issue-form input:focus, .issue-form textarea:focus {
+  outline: 2px solid #8d8df8;
+}
+
+.create-issue-btn {
+  background: linear-gradient(45deg, blue 0%, #3a3abe 50%, #494986 100%);
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 2rem;
+}

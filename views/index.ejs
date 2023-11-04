@@ -1,0 +1,19 @@
+<div class="main-page">
+  <div class="new-project-btn">
+    <a href="/projects/new">Create New Project +</a>
+  </div>
+  <h2>All Projects</h2>
+  <ul class="project-list-container">
+    <% projects.projectData.forEach(project => { %>
+      <li class="project-list" tabindex="0">
+        <div class="project-section">
+          <h2><%= project.name %></h2>
+          <div class="author-name">Author: <p><%= project.author %></p></div>
+        </div>
+        <div class="project-view">
+          <a class="project-view-btn" href="/projects/<%= project.id %>">View Project</a>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+</div>

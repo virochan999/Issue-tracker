@@ -1,0 +1,16 @@
+
+  <div class="project-page">
+    <h2>Create New Project</h2>
+    <form action="/projects/new" method="POST" class="project-form">
+      <label for="name" >Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="description" >Description:</label>
+      <textarea rows="6" name="description" id="description" required></textarea>
+      
+      <label for="author">Author:</label>
+      <input type="text" id="author" name="author" required>
+      
+      <button class="create-project-btn" type="submit">Create Project</button>
+    </form>
+  </div>

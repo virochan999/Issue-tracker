@@ -1,0 +1,52 @@
+<!-- Display project details -->
+<div class="details-page">
+  <div class="description-section">
+    <h2 class="details-heading"><%= project.name %></h2>
+    <div class="project-author"><h2>Author: </h2> <p> <%= project.author %></p></div>
+    <div class="project-description"><h2>Description: </h2> <p> <%= project.description %></p></div>
+  </div>
+  
+  <!-- Filtering options -->
+  <form class="filter-form" action="/projects/<%= project.id %>/filter" method="GET">
+    <!-- Filter by labels -->
+    <label for="labels">Choose a Label:</label>
+    <select name="labels" class="filer-label" multiple>
+      <!-- Render labels as options -->
+      <% project.labels.forEach(label => { %>
+        <option <%= selectedLabels.includes(label) ? "selected" : '' %> value="<%= label %>">
+          <%= label ? label : 'No Label' %>
+        </option>
+      <% }) %>
+    </select>
+  
+    <!-- Filter by author -->
+    <input type="text" name="author" placeholder="Filter by author" value="<%= author %>">
+  
+    <!-- Search by title and description -->
+    <input type="text" name="title" placeholder="Search by title or description" value="<%= title %>">
+  
+    <button type="submit">Apply Filters</button>
+  </form>
+
+  <!-- Button to create a new issue -->
+  <a href="/projects/<%= project.id %>/new-issue" class="issue-btn btn">Create New Issue</a>
+  
+  <!-- List of issues -->
+  <h2>All Issues</h2>
+  <div class="issue-section">
+    <ul>
+      <% if (issues.length !== 0 ) { %>
+        <% issues.forEach(issue => { %>
+          <li tabindex="0">
+            <h3><%= issue.title %></h3>
+            <p><%= issue.description %></p>
+            <!-- Display other issue details -->
+          </li>
+        <% }) %>
+        <% } %>
+    </ul>
+    <% if (issues.length === 0 ) { %>
+      <h3 class="no-issue" >No issue found</h3>
+    <% } %>
+  </div>
+</div>

@@ -1,0 +1,134 @@
+{
+  "projectData": [
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt eget odio vitae volutpat. Mauris leo orci, sollicitudin cursus ultrices non, finibus sit amet urna. Vivamus sit amet ex sed enim lobortis placerat. Sed at maximus velit, id eleifend diam. Donec placerat mattis justo, sed malesuada dolor luctus in. Praesent aliquet pellentesque lorem, in pulvinar nisi faucibus sit amet. Maecenas luctus, dui hendrerit auctor pharetra, elit neque hendrerit diam, non dictum lectus nisl ac leo",
+      "author": "John Doe",
+      "labels": [
+        "label1",
+        "label2",
+        "label3"
+      ],
+      "issues": [
+        {
+          "id": 101,
+          "title": "Issue 1",
+          "description": "Description for Issue 1",
+          "author": "Author 1",
+          "labels": [
+            "label1"
+          ]
+        },
+        {
+          "id": 102,
+          "title": "Issue 2",
+          "description": "Description for Issue 2",
+          "author": "Author 2",
+          "labels": [
+            "label2"
+          ]
+        },
+        {
+          "id": 103,
+          "title": "Issue 3",
+          "description": "Description for Issue 3",
+          "author": "Author 2",
+          "labels": [
+            "label2"
+          ]
+        },
+        {
+          "id": 104,
+          "title": "Issue 4",
+          "description": "Description for Issue 4",
+          "author": "Author 1",
+          "labels": [
+            "label2"
+          ]
+        },
+        {
+          "id": 1699102317329,
+          "title": "Issue 5 ",
+          "description": "description",
+          "labels": "label2",
+          "author": "John Doe"
+        },
+        {
+          "id": 1699107756902,
+          "title": "New Issue 6",
+          "description": "Description for Issue 6",
+          "labels": "label3",
+          "author": "John Doe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "author": "John Doe",
+      "description": "Description for Project 2",
+      "labels": [
+        "label1",
+        "label2"
+      ],
+      "issues": []
+    },
+    {
+      "id": 1698406392862,
+      "name": "new name",
+      "description": "desc",
+      "author": "vs",
+      "labels": [
+        "label1",
+        "label2"
+      ],
+      "issues": []
+    },
+    {
+      "id": 1698407541324,
+      "name": "new project",
+      "description": "description",
+      "author": "vs",
+      "labels": [
+        "label1",
+        "label2"
+      ],
+      "issues": []
+    },
+    {
+      "id": 1699104330746,
+      "name": "new name",
+      "description": "Description",
+      "author": "John Doe",
+      "labels": [],
+      "issues": []
+    },
+    {
+      "id": 1699108760125,
+      "name": "Issue Tracker",
+      "description": "A tool used internally at companies to track bugs and feature requests during product development.",
+      "author": "Anonymous User",
+      "labels": [],
+      "issues": []
+    },
+    {
+      "id": 1699108820458,
+      "name": "Ecommerce Website",
+      "description": "An ecommerce website is your digital storefront on the internet. It facilitates the transaction between a buyer and seller. It is the virtual space where you showcase products, and online customers make selections. Your website acts as the product shelves, sales staff, and cash register of your online business channel.",
+      "author": "Anonymous User",
+      "labels": [
+        "Cart"
+      ],
+      "issues": [
+        {
+          "id": 1699108903206,
+          "title": "Issue in cart section",
+          "description": "Count for a particular item is not updating properly on adding a new item from product section",
+          "labels": "Cart",
+          "author": "Anonymous User"
+        }
+      ]
+    }
+  ]
+}

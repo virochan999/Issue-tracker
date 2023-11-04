@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  align-items: center;
+}
+
+.header-link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logo {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.logo-text {
+  color: blue;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-logo {
+  width: 3rem;
+}
+
+.main-page {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.project-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-section h2 {
+  font-size: large;
+  font-weight: 500;
+}
+
+.project-list {
+  width: 50rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.author-name {
+  display: flex;
+}
+
+.project-list p {
+  color: #808080;
+  margin-left: 0.5rem;
+}
+
+.project-view {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.project-view-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-project-btn {
+  margin: 3rem 0;
+}
+
+.new-project-btn a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: blue;
+  border-radius: 0.3rem;
+}
+
+.new-project-btn a:hover {
+  outline: 1px solid blue;
+}
