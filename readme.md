@@ -51,21 +51,21 @@
 5. Access the application in your web browser at http://localhost:3000.
 
 ## Usage
-*** Home Page: ***
+### Home Page:
 
 1. View a list of existing projects.
 2. Create a new project using the "Create Project" button.
 
-## Create Project Page:
+### Create Project Page:
 
 1. Provide project details, including name, description, and author.
 
-## Project Detail Page:
+### Project Detail Page:
 
 1. Click on a project from the home page to access its details.
 2. Filter issues based on labels, author, or search criteria.
 3. Create a new issue for the selected project.
 
-## Create Issue Page:
+### Create Issue Page:
 
 1. Specify issue details, including title, description, labels (with label suggestions), and author.
