@@ -14,7 +14,9 @@ export function saveIssueData(newIssue, projectId) {
     }
 
     // Add the new issue to the project's issues array
-    project.labels.push(newIssue.labels)
+    if(!project.labels.includes(newIssue.labels)) {
+      project.labels.push(newIssue.labels)
+    }
     project.issues.push(newIssue)
 
     // Write the updated data back to data.json

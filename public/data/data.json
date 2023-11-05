@@ -72,7 +72,29 @@
         "label1",
         "label2"
       ],
-      "issues": []
+      "issues": [
+        {
+          "id": 1699193715744,
+          "title": "New Issue",
+          "description": "Description",
+          "labels": "label1",
+          "author": "John Doe"
+        },
+        {
+          "id": 1699193737795,
+          "title": "New Issue 2",
+          "description": "Description",
+          "labels": "label2",
+          "author": "John Doe"
+        },
+        {
+          "id": 1699193751935,
+          "title": "New Issue",
+          "description": "Description",
+          "labels": "label1",
+          "author": "John Doe"
+        }
+      ]
     },
     {
       "id": 1698406392862,
