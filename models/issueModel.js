@@ -1,5 +1,6 @@
 import fs from 'fs';
 
+/* Function to save issue data to the project */
 export function saveIssueData(newIssue, projectId) {
   try {
     const data = fs.readFileSync('public/data/data.json', 'utf-8');

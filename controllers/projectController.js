@@ -1,8 +1,10 @@
 
 import { saveProjectData, generateProjectId } from '../models/projectModel.js'
 
+/* To create a new project */
 export const createProject = (req, res) => {
   try {
+    // Get the the values from the api request body
     const { name, description, author } = req.body;
 
     // Validation of the data
